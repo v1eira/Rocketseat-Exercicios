@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso Rocketseat</title>
+    </head>
+    <body>
+        <input type="text" name="nome">
+        <button onClick="adicionar()">Adicionar</button>
+        
+        <div id="list"></div>
+        <script>
+            var names = ["Diego", "Gabriel", "Lucas"];
+
+            var list = document.createElement('ul');
+            for(name of names)
+            {
+                var listName = document.createElement('li');
+                var text = document.createTextNode(name);
+                listName.appendChild(text);
+                list.appendChild(listName);
+            }
+
+            inputElement = document.querySelector('input');
+
+            function adicionar() {
+                var listName = document.createElement('li');
+                var text = document.createTextNode(inputElement.value);
+                listName.appendChild(text);
+                list.appendChild(listName);
+                inputElement.value = "";
+            }
+
+            var containerElement = document.getElementById('list');
+            containerElement.appendChild(list);
+        </script>
+    </body>
+</html>

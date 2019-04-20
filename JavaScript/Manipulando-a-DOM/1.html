@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso Rocketseat</title>
+    </head>
+    <body>
+        <div id="button"></div>
+        
+        <div id="box"></div>
+        
+        <script>
+            var btnElement = document.createElement('button');
+            var text = document.createTextNode('Button');
+
+            btnElement.appendChild(text);
+            
+            var containerElement = document.querySelector('#button');
+            containerElement.appendChild(btnElement);
+            
+            var boxElement = document.querySelector('#box');
+
+            btnElement.onclick = function() {
+                var box = document.createElement('div');
+                
+                box.style.width = 100;
+                box.style.height = 100;
+                box.style.backgroundColor = '#f00';
+
+                boxElement.appendChild(box);
+            }
+        </script>
+    </body>
+</html>

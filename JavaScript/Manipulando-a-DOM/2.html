@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso Rocketseat</title>
+    </head>
+    <body>
+        <button id="button">Button</button>
+
+        <div id="box"></div>
+        <script>
+            btnElement = document.getElementById('button');
+            boxElement = document.getElementById('box');
+
+            function getRandomColor() {
+                var letters = "0123456789ABCDEF";
+                var color = "#";
+                for (var i = 0; i < 6; i++) {
+                    color += letters[Math.floor(Math.random() * 16)];
+                }
+                return color;
+            }
+
+            btnElement.onclick = function() {
+                var box = document.createElement('div');
+                
+                box.style.width = 100;
+                box.style.height = 100;
+                box.style.backgroundColor = '#f00';
+
+                box.onmouseover = function() {
+                    box.style.backgroundColor = getRandomColor();
+                }
+
+                boxElement.appendChild(box);
+            }
+        </script>
+    </body>
+</html>
