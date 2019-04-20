@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso Rocketseat</title>
+    </head>
+    <body>
+        <script>
+            function countdown(min)
+            {
+               seg = min * 60;
+               var horas = Math.floor(seg / 3600);
+               var minutos = Math.floor(seg % 3600 / 60);
+               var segundos = seg % 60;
+
+               var resultado = [(horas < 10) ? "0"+horas : horas, (minutos < 10) ? "0"+minutos : minutos, (segundos < 10) ? "0"+segundos : segundos].join(':');
+               
+               console.log(resultado);
+               seg -= 1;
+               if(seg > 0)
+               {
+                   minutos = seg/60; //transforma para minutos novamente
+                   setTimeout(countdown, 1000, minutos);
+               }
+            }
+            
+            countdown(70);
+
+        </script>
+    </body>
+</html>

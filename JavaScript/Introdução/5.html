@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso Rocketseat</title>
+    </head>
+    <body>
+        <script>
+            function printHab(users)
+            {
+                for(const usuario of users)
+                {
+                    let nome = usuario.nome;
+                    let habilidades = usuario.habilidades.join(', ');
+                    window.alert('O ' +nome +' possui as habilidades: ' +habilidades);
+                }
+            }
+
+           var usuarios =
+           [
+               {
+                   nome: 'Diego',
+                   habilidades: ['Javascript', 'ReactJS', 'Redux']
+               },
+               {
+                   nome: 'Gabriel',
+                   habilidades: ['VueJS', 'Ruby on Rails', 'Elixir']
+               }
+           ];
+
+           printHab(usuarios);
+
+        </script>
+    </body>
+</html>

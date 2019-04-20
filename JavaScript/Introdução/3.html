@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso Rocketseat</title>
+    </head>
+    <body>
+        <script>
+
+           function temHabilidade(skills)
+           {
+               var retorno = skills.indexOf('Javascript');
+               
+               if(retorno == -1)
+               {
+                   return false
+               }
+               else
+               {
+                   return true;
+               }
+           }
+
+           var skills = ['Javascript', 'ReactJS', 'React Native'];
+           window.alert(temHabilidade(skills));
+
+        </script>
+    </body>
+</html>
