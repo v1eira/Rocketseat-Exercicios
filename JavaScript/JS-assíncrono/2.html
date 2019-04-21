@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso Rocketseat</title>
+    </head>
+    <body>
+        <input type="text" name="user">
+        <button onClick="adicionar()">Adicionar</button>
+
+        <ul></ul>
+
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script>
+            var inputElement = document.querySelector('input');
+            var btnElement = document.querySelector('button');
+
+            var list = document.querySelector('ul');
+
+            function adicionar() {
+                axios.get('https://api.github.com/users/'+ inputElement.value + '/repos')
+                 .then(function(response) {
+                     list.innerHTML = "";
+                     
+                     for (repo of response.data) {
+                        var listItem = document.createElement('li');
+                        var text = document.createTextNode(repo.name);
+                        listItem.appendChild(text);
+                        list.appendChild(listItem);
+                     }
+                 })                 
+            }
+        </script>
+    </body>
+</html>
