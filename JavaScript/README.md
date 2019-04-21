@@ -32,7 +32,7 @@
 - Excluindo todos
 - Salvando no storage
 
-[Aplicação](App-de-Todos/README.md)
+[Aplicação](App-de-Todos/todos.js)
 
 ## 4. JS assíncrono
 - Requisições AJAX
