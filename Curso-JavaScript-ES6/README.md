@@ -16,6 +16,8 @@
 - Object Short Syntax
 - Desafio
 
+[Exercícios](Conceitos/README.md)
+
 ## 2. Webpack Server
 
 - Configurando Webpack
