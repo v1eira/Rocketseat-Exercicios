@@ -35,7 +35,7 @@ Crie uma variável que contenha todas idades dos usuários: [23, 15, 30]
 
 <b>2.2 Utilizando o *filter*</b>
 
-Crie uma variáveis que tenha apenas os usuários que trabalham na Rocketseat e com mais de 18 anos: ```[{ nome: 'Diego', idade: 23, empresa: 'Rocketseat' }]```
+Crie uma variável que tenha apenas os usuários que trabalham na Rocketseat e com mais de 18 anos: ```[{ nome: 'Diego', idade: 23, empresa: 'Rocketseat' }]```
 
 <b>2.3 Utilizando o *find*</b>
 
@@ -52,6 +52,8 @@ Multiplique a idade de todos usuários por dois e depois realize um filtro nos u
  { nome: 'Gabriel', idade: 30, empresa: 'Rocketseat' },
 ]
 ```
+
+[Resolução](2.js)
 
 ### 3º exercício
 
@@ -95,6 +97,8 @@ const promise = function() {
  })
 }
 ```
+
+[Resolução](3.js)
 
 ### 4º exercício
 
