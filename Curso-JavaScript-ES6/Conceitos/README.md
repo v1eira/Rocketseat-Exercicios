@@ -141,6 +141,8 @@ Utilize a desestruturação nos parâmetros da função para buscar o nome e ida
 return `${nome} tem ${idade} anos.`;
 ```
 
+[Resolução](4.js)
+
 ### 5º Exercício
 Utilizando o operador de rest/spread (...) realize as seguintes operações:
 
@@ -180,6 +182,8 @@ const usuario = {
 Crie uma variável ```usuario2``` que contenha todos os dados do usuário porém com nome ```Gabriel```.
 Crie uma variável ```usuario3``` que contenha todos os dados do usuário porém com cidade ```Lontras```.
 
+[Resolução](5.js)
+
 ### 6º Exercício
 
 Converta o seguinte trecho de código utilizando Template Literals:
@@ -189,6 +193,8 @@ const usuario = 'Diego';
 const idade = 23;
 console.log('O usuário ' + usuario + ' possui ' + idade + ' anos');
 ```
+
+[Resolução](6.js)
 
 ### 7º exercício
 Utilize a sintaxe curta de objetos (Object Short Syntax) no seguinte objeto:
@@ -202,3 +208,5 @@ const usuario = {
  cidade: 'Rio do Sul',
 };
 ```
+
+[Resolução](7.js)
