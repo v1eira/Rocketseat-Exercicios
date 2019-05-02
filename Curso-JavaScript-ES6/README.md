@@ -16,7 +16,7 @@
 - Object Short Syntax
 - Desafio
 
-[Exercícios](Conceitos/README.md)
+[Exercícios](1-Conceitos/README.md)
 
 ## 2. Webpack Server
 
@@ -24,6 +24,8 @@
 - Import/export
 - Webpack dev server
 - Desafio
+
+[Exercícios](2-Webpack-Server/README.md)
 
 ## 3. Async/await
 

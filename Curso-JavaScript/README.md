@@ -13,7 +13,7 @@
 - Intervalo e timeout
 - Desafio
 
-[Exercícios](Introdução/README.md)
+[Exercícios](1-Introdução/README.md)
 
 ## 2. Manipulando a DOM
 - Eventos inline
@@ -22,7 +22,7 @@
 - Alterando estilos
 - Desafio
 
-[Exercícios](Manipulando-a-DOM/README.md)
+[Exercícios](2-Manipulando-a-DOM/README.md)
 
 ## 3. App de Todos
 - Estrutura do app
@@ -32,7 +32,7 @@
 - Excluindo todos
 - Salvando no storage
 
-[Aplicação](App-de-Todos/todos.js)
+[Aplicação](3-App-de-Todos/todos.js)
 
 ## 4. JS assíncrono
 - Requisições AJAX
@@ -40,4 +40,4 @@
 - Utilizando Axios
 - Desafio
 
-[Exercícios](JS-assíncrono/README.md)
+[Exercícios](4-JS-assíncrono/README.md)
