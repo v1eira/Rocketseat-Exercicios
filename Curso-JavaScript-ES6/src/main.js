@@ -1,5 +1,16 @@
-import ClasseUsuario, { idade as idadeUsuario } from '../Webpack Server/functions';
+import axios from 'axios';
 
-ClasseUsuario.info();
+class Api {
+    static async getUserInfo(username) {
+        try {
+            const response = await axios.get(`https://api.github.com/users/${username}`);
 
-console.log(idadeUsuario);
+            console.log(response);
+        } catch (err) {
+            console.warn('Erro na API');
+        }
+    }
+}
+
+Api.getUserInfo('v1eira');
+Api.getUserInfo('ewersonv');
