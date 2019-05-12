@@ -33,6 +33,8 @@
 - Configurando axios
 - Desafio
 
+[Exercícios](3-Async-await/README.md)
+
 ## 4. Aplicação com ES6+
 
 - Estrutura e estilos
